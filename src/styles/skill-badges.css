@@ -1,0 +1,30 @@
+/* Skill Badge Transitions */
+/* Custom hover transitions for skill tags in App.tsx */
+
+.skill-badge {
+  position: relative;
+  overflow: hidden;
+  border-color: var(--border);
+
+  background: transparent;
+}
+
+.skill-badge:hover {
+  transform: translateY(-0px);
+  border-color: var(--primary);
+  color: var(--color-black);
+}
+
+/* Dark mode adjustments */
+.dark .skill-badge:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.dark .skill-badge::after {
+  background: #fff;
+}
+
+/* Optional: Scale effect on active */
+.skill-badge:active {
+  transform: translateY(0) scale(0.98);
+}
