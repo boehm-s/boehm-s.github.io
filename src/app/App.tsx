@@ -84,7 +84,7 @@ export default function App() {
 
             <div className="flex gap-8 flex-wrap">
               <a
-                href="https://www.linkedin.com/in/stevenboehm-2976bab1"
+                href="https://fr.linkedin.com/in/steven-boehm-2976bab1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="tracking-wide border-b border-foreground/70 pb-1"
