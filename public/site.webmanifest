@@ -1,0 +1,10 @@
+{
+  "name": "Steven BOEHM - Full Stack Developer",
+  "short_name": "Steven BOEHM",
+  "description": "Portfolio of Steven BOEHM, full stack developer and Rust engineer in Paris, France.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#050505",
+  "lang": "en"
+}

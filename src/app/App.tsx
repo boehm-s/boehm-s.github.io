@@ -1,7 +1,8 @@
 import { SkillBadge } from "./components/SkillBadge";
 import { ExperienceItem } from "./components/ExperienceItem";
 import { ProfilePicture } from "./components/ProfilePicture";
-import { VantaTrunkBackground } from "./components/VantaTrunkBackground";
+import { ShaderTrunkBackground } from "./components/ShaderTrunkBackground";
+// import { VantaTrunkBackground } from "./components/VantaTrunkBackground";
 import profileImage from "../imports/me.jpg";
 
 export default function App() {
@@ -51,7 +52,8 @@ export default function App() {
       className="size-full bg-background text-foreground overflow-y-auto relative isolate"
       onScroll={triggerScrollChaos}
     >
-      <VantaTrunkBackground />
+      <ShaderTrunkBackground />
+      {/* <VantaTrunkBackground /> */}
 
       <div className="relative z-10 min-h-screen flex items-center justify-center px-8">
         <div className="flex items-center gap-16 flex-col md:flex-row max-w-5xl">
@@ -128,7 +130,7 @@ export default function App() {
 
       <div className="relative z-10 max-w-5xl mx-auto px-8 py-24">
         <div>
-          <h2 className="text-[clamp(2rem,5vw,4rem)] tracking-tight mb-16">
+          <h2 id="experience-title" className="text-[clamp(2rem,5vw,4rem)] tracking-tight mb-16">
             Experience
           </h2>
 

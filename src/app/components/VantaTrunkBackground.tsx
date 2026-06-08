@@ -32,8 +32,8 @@ export const VantaTrunkBackground = () => {
     effectRef.current = TRUNK({
       el: containerRef.current,
       p5,
-      mouseControls: true,
-      touchControls: true,
+      mouseControls: false,
+      touchControls: false,
       gyroControls: false,
       minHeight: 200,
       minWidth: 200,

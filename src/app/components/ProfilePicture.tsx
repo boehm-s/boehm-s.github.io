@@ -13,6 +13,7 @@ export const ProfilePicture = ({ src, alt }: ProfilePictureProps) => {
     <div className="flex-shrink-0">
       <button
         type="button"
+        aria-label={alt}
         className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-2 border-border grayscale"
         onPointerDown={resetVantaChaos}
         onClick={resetVantaChaos}
