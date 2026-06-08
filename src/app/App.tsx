@@ -84,19 +84,12 @@ export default function App() {
 
             <div className="flex gap-8 flex-wrap">
               <a
-                href="mailto:steven.boehm.dev@gmail.com"
-                className="tracking-wide border-b border-foreground/70 pb-1"
-              >
-                Get in Touch
-              </a>
-
-              <a
                 href="https://www.linkedin.com/in/stevenboehm-2976bab1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="tracking-wide border-b border-foreground/70 pb-1"
               >
-                LinkedIn
+                Get in Touch
               </a>
 
               <a
